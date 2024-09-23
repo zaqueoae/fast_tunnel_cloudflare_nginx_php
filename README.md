@@ -3,6 +3,9 @@ Set up a cloudflare tunnel, and nginx php letsencript website on the fly.
 
 With this script you will create a cloudflare tunnel, launch an nginx and php server, create a php website that can be visited with htts thanks to the letsencript certificate that we will also request.
 
+Requirements: Debian-based Linux.
+
+
 Just run this command
 
 ```
