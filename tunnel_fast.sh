@@ -207,6 +207,7 @@ EOF"
 sudo ln -s /etc/nginx/sites-available/$DOMAIN /etc/nginx/sites-enabled/
 
 mkdir -p /var/www/$DOMAIN/public_html
+echo "<?php echo 'Hello World'; ?>" | sudo tee /var/www/$DOMAIN/public_html/index.php
 find /var/www -type d -exec chmod 755 {} \;
 sudo find  /var/www -type f -exec chmod 644 {} \;
 chown -R www-data:www-data /var/www
