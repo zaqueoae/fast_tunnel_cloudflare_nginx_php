@@ -6,7 +6,7 @@ With this script you will create a cloudflare tunnel, launch an nginx and php se
 Just run this command
 
 ```
-curl -o tunnel_fast.sh https://raw.githubusercontent.com/zaqueoae/fast_tunnel_cloudflare_nginx_php/refs/heads/main/tunnel_fast.sh?v=1
+curl -o tunnel_fast.sh https://raw.githubusercontent.com/zaqueoae/instant_cloudflare_tunnel/refs/heads/main/tunnel_fast.sh?v=1
 sudo bash ~/tunnel_fast.sh
 ```
 
