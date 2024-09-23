@@ -8,3 +8,4 @@ curl -o tunnel_fast.sh https://raw.githubusercontent.com/zaqueoae/fast_tunnel_cl
 bash ~/tunnel_fast.sh
 ```
 
+Now simply access your domain from the browser and you will be able to see a "Hello world".
